@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rating: 1
+  body: MyText
+  user_id: 1
+  recipe_idinteger: MyString
+  make_again?: 
+  : 
+  =: MyString
+
+two:
+  rating: 1
+  body: MyText
+  user_id: 1
+  recipe_idinteger: MyString
+  make_again?: 
+  : 
+  =: MyString

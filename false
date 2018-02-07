@@ -1,0 +1,12 @@
+      invoke  active_record
+      create    db/migrate/20180206224530_create_reviews.rb
+      create    app/models/review.rb
+      invoke    test_unit
+      create      test/models/review_test.rb
+      create      test/fixtures/reviews.yml
+      invoke  controller
+      create    app/controllers/reviews_controller.rb
+      invoke    test_unit
+      create      test/controllers/reviews_controller_test.rb
+      invoke  resource_route
+       route    resources :reviews
