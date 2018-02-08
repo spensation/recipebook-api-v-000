@@ -3,4 +3,10 @@ class Api::V1::UsersController < ApplicationController
     @users = User.all
     render json: @users
   end
+
+  def show
+    @user = User.find(params[:id])
+    render json: @user.to_json(:only => [:username],
+                              :include => [:recipes => { :only => [:title]}])
+  end
 end
